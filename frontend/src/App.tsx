@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import TaskBoard from "./components/TaskBoard.tsx";
-import TaskForm from "./components/TaskForm.tsx";
+import TaskBoard from "./components/TaskBoard";
+import TaskForm from "./components/TaskForm";
 import { fetchTasks } from "./store/slices/taskSlice";
 import { openModal } from "./store/slices/uiSlice";
 import { RootState, AppDispatch } from "./store";
